@@ -91,8 +91,8 @@ $ bower install
 > Contributors / People
 
 | <a href="https://github.com/arhouati" target="_blank">**Abdelkader Rhouati**</a> |
-| :---: |:---:| :---:|
-| [![arhouati](https://avatars3.githubusercontent.com/u/1706299?s=460&v=4)](https://github.com/arhouati)    |
+| --- |---| ---|
+| [![arhouati](https://avatars3.githubusercontent.com/u/1706299?s=460&v=4)](https://github.com/arhouati)|
 | <a href="https://github.com/arhouati" target="_blank">`https://github.com/arhouati`</a> |
 
 <!-- ...
