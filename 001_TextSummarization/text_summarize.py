@@ -6,11 +6,15 @@ from nltk.tokenize import sent_tokenize
 import re
 from sklearn.metrics.pairwise import cosine_similarity
 import networkx as nx
+import os
 
-path = '001_TextSummarization/'
+
+dirpath = os.getcwd()
+slash = "\\"  # use '/' for mac or linux
+path = dirpath + slash
 
 # Read Data from csv
-df = pd.read_csv(path + 'data/tennis_articles_v4.csv')
+df = pd.read_csv(path + 'data' + slash + 'tennis_articles_v4.csv')
 
 # split text into sentences
 sentences = []
@@ -24,7 +28,7 @@ sentences = [y for x in sentences for y in x]
 # get 400,000 different word vectors from pre-trained "Wikipedia 2014 + Gigaword 5 GloVe vectors"
 # available here http://nlp.stanford.edu/data/glove.6B.zip
 word_embeddings = {}
-f = open(path + 'models/glove.6B.100d.txt', encoding='utf-8')
+f = open(path + 'models' + slash + 'glove.6B.100d.txt', encoding='utf-8')
 for line in f:
     values = line.split()
     word = values[0]
@@ -53,7 +57,7 @@ clean_sentences = [remove_stopwords(r.split()) for r in clean_sentences]
 
 # Extract word vectors
 word_embeddings = {}
-f = open(path + 'models/glove.6B.100d.txt', encoding='utf-8')
+f = open(path + 'models' + slash + 'glove.6B.100d.txt', encoding='utf-8')
 for line in f:
     values = line.split()
     word = values[0]
