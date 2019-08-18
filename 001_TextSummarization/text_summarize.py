@@ -3,7 +3,6 @@ import pandas as pd
 import nltk
 nltk.download('punkt') # one time execution
 from nltk.tokenize import sent_tokenize
-import re
 from sklearn.metrics.pairwise import cosine_similarity
 import networkx as nx
 import os
