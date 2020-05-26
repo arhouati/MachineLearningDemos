@@ -16,6 +16,9 @@
 
 - [Text Summarization (Extractive Approach)](001_TextSummarization/README.md)
 
+> Linear classification with perceptron algorithm
+
+- [Linear Classification with perceptron](002_perceptron/README.md)
 
 ---
 <!-- ...

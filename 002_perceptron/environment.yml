@@ -1,0 +1,8 @@
+name: perceptron
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+
+prefix: /anaconda3/envs/perceptron
