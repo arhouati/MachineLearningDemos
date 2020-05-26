@@ -16,6 +16,9 @@
 
 - [Text Summarization (Extractive Approach)](001_TextSummarization/README.md)
 
+> Linear classification with perceptron algorithm
+
+- [Linear Classification with perceptron](002_perceptron/README.md)
 
 ---
 <!-- ...
@@ -90,10 +93,10 @@ $ bower install
 
 > Contributors / People
 
-| <a href="https://github.com/arhouati" target="_blank">**Abdelkader Rhouati**</a> |
-| :---: |:---:| :---:|
-| [![arhouati](https://avatars3.githubusercontent.com/u/1706299?s=460&v=4)](https://github.com/arhouati)    |
-| <a href="https://github.com/arhouati" target="_blank">`https://github.com/arhouati`</a> |
+| <a href="https://github.com/arhouati" target="_blank">**Abdelkader Rhouati**</a>  |
+| ------------- |
+| [![arhouati](https://avatars3.githubusercontent.com/u/1706299?s=460&v=4)](https://github.com/arhouati)  |
+| <a href="https://github.com/arhouati" target="_blank">`https://github.com/arhouati`</a>  |
 
 <!-- ...
 ---
