@@ -20,6 +20,10 @@
 
 - [Linear Classification with perceptron](002_perceptron/README.md)
 
+> A BaseLine ot the use of transformer BERT in NLP Tasks
+
+- [BERT BaseLine](003_BERT-BaseLine/README.md)
+
 ---
 <!-- ...
 ## Installation

@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# editor files
+.DS_Store
+.idea
+
 # C extensions
 *.so
 
@@ -102,3 +106,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#pycharm
+.idea
+*/models/*
+
