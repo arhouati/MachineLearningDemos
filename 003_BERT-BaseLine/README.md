@@ -1,15 +1,16 @@
-# Text summarization via an extractive approach
+# BERT BaseLine
 
-> This code is an impelentation of textrank algorithm for a text summarization. The algorithm is tested on english text. The code is espired by the work of "Prateek Joshi". you can find more details in the link : [orginal article](https://medium.com/analytics-vidhya/an-introduction-to-text-summarization-using-the-textrank-algorithm-with-python-implementation-2370c39d0c60)
+> This code is an impelentation of BERT in NLP processing Tasks
 
-All algorithm's steps are explained by following figure:
+BERT stands for "Bidirectional Encoder Representations for Transformers" ( [article](https://arxiv.org/abs/1810.04805) )
 
-![algorithm](images/readme/textsummarization_algo.png)
+## References and Credits
 
+This code wouldn't have been possible without the following posts : 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+https://www.kaggle.com/abhinand05/bert-for-humans-tutorial-baseline
+https://towardsdatascience.com/bert-for-dummies-step-by-step-tutorial-fb90890ffe03
+https://mccormickml.com/2019/07/22/BERT-fine-tuning/
 
 ### Prerequisites
 
@@ -17,13 +18,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 You can install anaconda by following instruction in this link :
 [Anaconda](https://www.anaconda.com/distribution/)
-
-> Download GloVe Word Embeddings. GloVe word embeddings are vector representation of words
-
-You can download models in this link [GloVe](http://nlp.stanford.edu/data/glove.6B.zip).
-
-put the file 'glove.6B.100d.txt' in 'models' folder
-
 
 ## Installation
 
@@ -45,13 +39,12 @@ conda list
 3. to activate the new created environment use :
 
 ```sh
-conda activate textsummary
+conda activate bert
 ```
 
 ## Release History
 
-* 0.0.1
-    * first version - completely identical to "Prateek Joshi" work
+* 0.0.1 : first version
 
 ## Road Map information
 
@@ -62,22 +55,6 @@ conda activate textsummary
 Abdelkader Rhouati – [@arhouati](https://twitter.com/arhouati) – abdelkader.rhouati@gmail.com
 
 Distributed under the MIT license. See - **[MIT license](http://opensource.org/licenses/mit-license.php)** for more information.
-
-<!--
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
 
 ## Contributing
 
